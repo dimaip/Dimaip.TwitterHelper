@@ -35,4 +35,4 @@ The EEL helper takes two arguments: Twitter API endpoint name and get arguments 
 
 <img src="codeq.png" alt="Code Q" width="200"/>
 
-**[Get in touch](dimaip.github.io/hire/) with me if you need to get something nice and Neos-y done ;)**
+**[Get in touch](dimaip.github.io/hire/) with me if you need to get something nice and Neos-y developed ;)**
