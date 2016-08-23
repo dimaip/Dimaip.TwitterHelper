@@ -1,0 +1,7 @@
+<div>
+	<h4>{tweet.user.name} (@{tweet.user.screen_name})</h4>
+	<div>{tweet.text}</div>
+	<f:if condition="{tweet.entities.media.0.media_url}">
+		<img src="{tweet.entities.media.0.media_url}:small" alt="{tweet.text}" />
+	</f:if>
+</div>

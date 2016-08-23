@@ -1,0 +1,19 @@
+prototype(Dimaip.TwitterHelper:Timeline) < prototype(TYPO3.TypoScript:Collection) {
+	@context.user = 'dimaip'
+	@context.count = 10
+	collection = ${Twitter.getRequest('statuses/user_timeline', 'screen_name=' + user + '&count=' + count)}
+	itemName = 'tweet'
+	itemRenderer = Dimaip.TwitterHelper:Tweet
+
+	@cache {
+		mode = 'cached'
+		maximumLifetime = '3600'
+	}
+}
+
+prototype(Dimaip.TwitterHelper:Tweet) < prototype(TYPO3.TypoScript:Template) {
+	templatePath = 'resource://Dimaip.TwitterHelper/Private/Templates/Tweet.html'
+	tweet = ${tweet}
+}
+
+root = Dimaip.TwitterHelper:Timeline

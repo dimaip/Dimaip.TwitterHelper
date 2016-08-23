@@ -1,0 +1,14 @@
+TYPO3:
+  TypoScript:
+    defaultContext:
+      Twitter: 'Dimaip\TwitterHelper\Eel\TwitterHelper'
+  Neos:
+    typoScript:
+      autoInclude:
+        Dimaip.TwitterHelper: true
+Dimaip:
+  TwitterHelper:
+    oauthAccessToken: ''
+    oauthAccessTokenSecret: ''
+    consumerKey: ''
+    consumerSecret: ''
