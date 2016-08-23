@@ -2,7 +2,7 @@
 
 ## TL;DR
 
-gk1. Install the package: `composer require dimaip/twitterhelper:dev`
+1. Install the package: `composer require dimaip/twitterhelper:dev`
 2. Go to https://apps.twitter.com/ and create new app.
 3. Go to "Keys and Access Tokens" tab and copy the access tokens to your `Settings.yaml` file in the following way:
 
@@ -33,6 +33,6 @@ The EEL helper takes two arguments: Twitter API endpoint name and get arguments 
 
 **The development of this plugin was kindly sponsored by [CODE Q](https://www.codeq.at/)
 
-[!CodeQ](codeq.png)
+![CodeQ](codeq.png)
 
 **[Get in touch](dimaip.github.io/hire/) with me if you need to get something nice and Neos-y done ;)**
