@@ -31,8 +31,8 @@ Or you can use the EEL helper directly to make any kind of GET request to the Tw
 
 The EEL helper takes two arguments: Twitter API endpoint name and get arguments for that endpoint.
 
-**The development of this plugin was kindly sponsored by [CODE Q](https://www.codeq.at/)
+**The development of this plugin was kindly sponsored by [CODE Q](https://www.codeq.at/)**
 
-![CodeQ](codeq.png)
+![CodeQ](codeq.png =200x)
 
 **[Get in touch](dimaip.github.io/hire/) with me if you need to get something nice and Neos-y done ;)**
