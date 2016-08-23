@@ -2,7 +2,7 @@
 
 ## TL;DR
 
-1. Install the package: `composer require dimaip/twitterhelper:dev`
+1. Install the package: `composer require dimaip/twitterhelper:dev-master`
 2. Go to https://apps.twitter.com/ and create new app.
 3. Go to "Keys and Access Tokens" tab and copy the access tokens to your `Settings.yaml` file in the following way:
 
