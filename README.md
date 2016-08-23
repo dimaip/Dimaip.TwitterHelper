@@ -33,6 +33,6 @@ The EEL helper takes two arguments: Twitter API endpoint name and get arguments 
 
 **The development of this plugin was kindly sponsored by [CODE Q](https://www.codeq.at/)**
 
-![CodeQ](codeq.png =200x)
+<img src="codeq.png" alt="Code Q"/>
 
 **[Get in touch](dimaip.github.io/hire/) with me if you need to get something nice and Neos-y done ;)**
