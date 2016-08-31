@@ -15,5 +15,3 @@ prototype(Dimaip.TwitterHelper:Tweet) < prototype(TYPO3.TypoScript:Template) {
 	templatePath = 'resource://Dimaip.TwitterHelper/Private/Templates/Tweet.html'
 	tweet = ${tweet}
 }
-
-root = Dimaip.TwitterHelper:Timeline
