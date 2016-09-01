@@ -1,6 +1,7 @@
 <div>
 	<h4>{tweet.user.name} (@{tweet.user.screen_name})</h4>
 	<div>{tweet.text}</div>
+	<div><f:format.date forceLocale="{true}" cldrFormat="h:m, dd MMMM">{tweet.created_at}</f:format.date></div>
 	<f:if condition="{tweet.entities.media.0.media_url}">
 		<img src="{tweet.entities.media.0.media_url}:small" alt="{tweet.text}" />
 	</f:if>
