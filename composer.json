@@ -4,7 +4,7 @@
     "name": "dimaip/twitterhelper",
     "require": {
         "typo3/flow": "*",
-        "j7mbo/twitter-api-php": "dev-master"
+        "j7mbo/twitter-api-php": "*"
     },
     "license": "LGPL-3.0+",
     "autoload": {
