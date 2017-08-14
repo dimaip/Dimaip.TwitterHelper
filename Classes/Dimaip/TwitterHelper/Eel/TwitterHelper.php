@@ -2,7 +2,7 @@
 namespace Dimaip\TwitterHelper\Eel;
 
 use Neos\Eel\ProtectedContextAwareInterface;
-use TYPO3\TYPO3CR\Domain\Model\NodeInterface;
+use Neos\ContentRepository\Domain\Model\NodeInterface;
 use Neos\Flow\Annotations as Flow;
 
 /**
