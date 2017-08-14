@@ -1,9 +1,10 @@
+
 Neos:
   Fusion:
     defaultContext:
-      Twitter: 'Dimaip\TwitterHelper\Eel\TwitterHelper'
+      Twitter: Dimaip\TwitterHelper\Eel\TwitterHelper
   Neos:
-    typoScript:
+    fusion:
       autoInclude:
         Dimaip.TwitterHelper: true
 Dimaip:
