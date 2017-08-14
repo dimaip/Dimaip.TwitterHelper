@@ -1,4 +1,4 @@
-prototype(Dimaip.TwitterHelper:Timeline) < prototype(TYPO3.TypoScript:Collection) {
+prototype(Dimaip.TwitterHelper:Timeline) < prototype(Neos.Fusion:Collection) {
 	@context.user = 'dimaip'
 	@context.count = 10
 	collection = ${Twitter.getRequest('statuses/user_timeline', 'screen_name=' + user + '&count=' + count)}
@@ -11,7 +11,7 @@ prototype(Dimaip.TwitterHelper:Timeline) < prototype(TYPO3.TypoScript:Collection
 	}
 }
 
-prototype(Dimaip.TwitterHelper:Tweet) < prototype(TYPO3.TypoScript:Template) {
+prototype(Dimaip.TwitterHelper:Tweet) < prototype(Neos.Neos:Template) {
 	templatePath = 'resource://Dimaip.TwitterHelper/Private/Templates/Tweet.html'
 	tweet = ${tweet}
 }
