@@ -1,5 +1,5 @@
-TYPO3:
-  TypoScript:
+Neos:
+  Fusion:
     defaultContext:
       Twitter: 'Dimaip\TwitterHelper\Eel\TwitterHelper'
   Neos:
