@@ -11,7 +11,7 @@ prototype(Dimaip.TwitterHelper:Timeline) < prototype(Neos.Fusion:Collection) {
 	}
 }
 
-prototype(Dimaip.TwitterHelper:Tweet) < prototype(Neos.Neos:Template) {
+prototype(Dimaip.TwitterHelper:Tweet) < prototype(Neos.Fusion:Template) {
 	templatePath = 'resource://Dimaip.TwitterHelper/Private/Templates/Tweet.html'
 	tweet = ${tweet}
 }
